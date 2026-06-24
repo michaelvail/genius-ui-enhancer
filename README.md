@@ -1,36 +1,81 @@
-# Genius Full Width
+# Genius UI Enhancer
 
-Genius lyrics pages don't scale well with narrower windows, especially when you want to zoom in to make the lyrics bigger. This Chromium extension reduces clutter, removing the massive sidebar and extending the content width.
+Genius is a fantastic source for lyrics, but its layout doesn't always suit the viewing experience, especially on narrower windows or when zoomed in. It has a lot of additional (and interesting!) content, but most of the time, I just want to read the lyrics. This Chromium extension gives you the option to reduce all the clutter and customize your experience to your own needs.
 
+## ✨ Features
+- Clean View: Hides the sidebar, annotations, and contribution features for the moments when you just want to sing along to the lyrics.
+- Utilizes the full width of the page for the header, lyrics, and post-lyric content, supporting readability for the narrowest windows.
+- Adjustable font sizes support viewing from longer distances without relying on UI-breaking page zoom.
+- Provides left, center, and right alignment options for lyrics.
+- Removes live concert information, the "You might also like" section, and invasive advertisements.*
+- Automatically saves your viewing settings to your browser's local storage.
+- Only activates on lyric and annotation pages, leaving other pages unaffected.
+- Lightweight and optimized for Genius' architecture.
+
+\*Advertisement removal is post-hoc and not thoroughly tested across different browsers. I recommend always using an ad-blocker.
+
+## 🖼️ Visual Comparisons
+
+<details>
+<summary><b>Logged out with no adblocker vs. Logged out with UI Enhancer</b></summary>
 <p>
-  Old vs. New (both on 140% zoom without adblocker)<br>
-  <img src="images/old.png" width="45%">
-  <img src="images/new.png" width="45%">
+  <img src="images/old_loggedout_adblockoff.png" width="45%">
+  <img src="images/new_loggedout.png" width="45%">
 </p>
+</details>
 
+<details>
+<summary><b>Logged in vs. Logged in with UI Enhancer</b></summary>
 <p>
-  Old vs. New (both on 140% zoom with adblocker)<br>
-  <img src="images/old_adblock.png" width="45%">
-  <img src="images/new_adblock.png" width="45%">
+  <img src="images/old_loggedin.png" width="45%">
+  <img src="images/new_loggedin.png" width="45%">
 </p>
+</details>
 
-## Features
-- Removes live concert information, "You might also like", and advertisements*
-- Creates more header space for song information
-- Extends width of the lyrics space**
-- Only applies to lyrics pages, leaving other pages unaffected
+<details>
+<summary><b>Enlarging lyrics with page zoom vs. Enlarging lyrics with UI Enhancer</b></summary>
+<p>
+  <img src="images/old_loggedin_zoom.png" width="45%">
+  <img src="images/new_loggedin_zoom.png" width="45%">
+</p>
+</details>
 
-\*Not thoroughly tested for advertisement removal across different browsers. I recommend always using an ad-blocker, anyway.
+<details>
+<summary><b>UI Enhancer Default vs. Clean View: disables excess content and utilizes full page width</b></summary>
+<p>
+  <img src="images/new_loggedin_zoom.png" width="45%">
+  <img src="images/new_cleanview.png" width="45%">
+</p>
+</details>
 
-\**Opening annotations works as normal in most conditions, but there's some overlap when zoomed in on narrow windows.
-  
+<details>
+<summary><b>Choose from a range of lyrics sizes without affecting other content</b></summary>
+<p>
+  <img src="images/new_cleanview_size16.png" width="30%">
+  <img src="images/new_cleanview_size24.png" width="30%">
+  <img src="images/new_cleanview_size40.png" width="30%">
+</p>
+</details>
+
+<details>
+<summary><b>Choose left, center, or right lyrics alignment</b></summary>
+<p>
+  <img src="images/new_cleanview_left.png" width="30%">
+  <img src="images/new_cleanview_center.png" width="30%">
+  <img src="images/new_cleanview_right.png" width="30%">
+  <img src="images/new_loggedin_left.png" width="30%">
+  <img src="images/new_loggedin_center.png" width="30%">
+  <img src="images/new_loggedin_right.png" width="30%">
+</p>
+</details>
+
 ## Installation
 1. Download the latest release.
 2. Open your browser's extensions menu (`chrome://extensions/`, `brave://extensions/`, etc.).
 4. Enable **Developer mode** (toggle in the top right).
 5. Click **Load unpacked** and select the downloaded folder.
-6. The extension will now be active on Genius lyrics pages.
+6. The extension will now be active on Genius lyric pages.
 
 ---
 
-### If this project was valuable to you, please feel free to [fund](https://ko-fi.com/michaelvail) my matcha addiction.
+### If this project was valuable to you, please feel free to [fund](https://ko-fi.com/michaelvail) my matcha addiction 🍵
