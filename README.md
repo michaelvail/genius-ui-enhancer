@@ -70,10 +70,10 @@ Genius is a fantastic source for lyrics, but its layout doesn't always suit the 
 </details>
 
 ## Installation
-1. Download the latest release.
+1. Download the latest release and extract.
 2. Open your browser's extensions menu (`chrome://extensions/`, `brave://extensions/`, etc.).
 4. Enable **Developer mode** (toggle in the top right).
-5. Click **Load unpacked** and select the downloaded folder.
+5. Click **Load unpacked** and select the extracted folder `genius-ui-enhancer`.
 6. The extension will now be active on Genius lyric pages.
 
 ---
