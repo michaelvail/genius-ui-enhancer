@@ -78,4 +78,6 @@ Genius is a fantastic source for lyrics, but its layout doesn't always suit the 
 
 ---
 
+Liked this extension? You may also enjoy [Better Discography](https://github.com/michaelvail/better-discography) for Spotify.
+
 ### If this project was valuable to you, please feel free to [fund](https://ko-fi.com/michaelvail) my matcha addiction 🍵
